@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="shortcut icon" type="image/jfif" href="../imagenes/favicon.jfif">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+</head>
+<body>
+    <!-- ENCABEZADO -->
+    <header>
+        <nav>
+            <img class="logo-header" src="../imagenes/logotipo.jfif" alt="Logotipo de la empresa">
+            <input type="checkbox" id="check">
+            <label class="boton-menu" for="check">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li>
+                    <a class="enlaces" href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a class="enlaces" href="./conocenos.html">Conócenos</a>
+                </li>
+                <li>
+                    <a class="enlaces" href="./donde-estamos.html">¿Dónde estamos?</a>
+                </li>
+                <li>
+                    <a class="enlaces" href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a class="enlaces" href="./envios.html">Envíos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- FORMULARIO -->
+    <section class="centrar">
+        <h1 class="encabezado">Contacta con nosotros</h1>
+        <form>
+            <fieldset>
+                <legend><h2>Datos personales</h2></legend>
+                <div class="datospersonales">
+                <label for="nombre">Nombre</label><br>
+                <input id="nombre" type="text" placeholder="Tu nombre" required><br>
+                <label for="apellido">Apellidos</label><br>
+                <input id="apellido" type="text" placeholder="Tu apellido"><br>
+                </div>
+            </fieldset>
+            <label for="correo">Correo</label><br>
+            <input id="morreo" type="email" placeholder="example@gmail.com" required><br>
+            <label for="mensaje">Mensaje</label><br>
+            <textarea id="mensaje" placeholder="Mensaje" required></textarea><br>
+            <div class="botones">
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <div>
+            <img class="logo-footer" src="../imagenes/logotipo.jfif" alt="Logotipo">
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="enlaces" href="../index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a class="enlaces" href="./conocenos.html">Conócenos</a>
+                    </li>
+                    <li>
+                        <a class="enlaces" href="./donde-estamos.html">¿Dónde estamos?</a>
+                    </li>
+                    <li>
+                        <a class="enlaces" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a class="enlaces" href="./envios.html">Envíos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <dl>
+                <dt>Atencion al cliente</dt>
+                <dd>Nuestros horarios de atencion al cliente son de lunes a viernes de 8:00 a 12:00</dd>
+            </dl>
+        </div>
+    </footer>
+</body>
+</html>
